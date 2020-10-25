@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-internal-state-experiment',
     environment,
-    rootURL: '/',
+    rootURL: 'https://makannew.github.io/ember-internal-state-experiment/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
