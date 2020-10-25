@@ -1,0 +1,13 @@
+<h2>Parent component</h2>
+<h3>parrent value:<span style="color:limegreen">
+        {{this.value}} </span>
+</h3>
+<label>Change parent value:</label>
+<input type="text" {{on "input" this.changeValue}} value={{this.value}} />
+<span>(any changes here has priority to child state)</span>
+<br>
+<br>
+<br>
+
+<h2>Child component</h2>
+<GetValue::ChildValue @value={{this.value}} @handleUpdate={{this.handleUpdate}} />

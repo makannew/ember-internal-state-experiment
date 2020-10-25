@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>Ember internal state experiment</h1>
+<p>
+  In this setup parent state overwrite changes made by child component. As usual input field contains changes made by
+  user however input field updates to parent state if parent state changed because it has priority over user changes.
+</p>
+<br>
+<br>
 
-{{outlet}}
+<GetValue />

@@ -1,5 +1,5 @@
-import Application from 'cross-state-test/app';
-import config from 'cross-state-test/config/environment';
+import Application from 'ember-internal-state-experiment/app';
+import config from 'ember-internal-state-experiment/config/environment';
 import { setApplication } from '@ember/test-helpers';
 import { start } from 'ember-qunit';
 

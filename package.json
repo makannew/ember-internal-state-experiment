@@ -1,8 +1,8 @@
 {
-  "name": "cross-state-test",
+  "name": "ember-internal-state-experiment",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for cross-state-test goes here",
+  "description": "Small description for ember-internal-state-experiment goes here",
   "repository": "",
   "license": "MIT",
   "author": "",

@@ -1,0 +1,7 @@
+<h3>Child Component received value as an argument:<span style="color:magenta">{{@value}}</span></h3>
+<h3>Child Component internal value:<span style="color:magenta">{{this.internalValue}}</span></h3>
+
+<label for="my-input">Child value:</label>
+<input id="my-input" type="text" {{on "input" this.changeInternalValue}} value={{this.value}} />
+
+<button type="button" {{on "click" this.submitChange}}> Submit change</button>

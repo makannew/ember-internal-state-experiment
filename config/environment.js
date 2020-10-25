@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'cross-state-test',
+    modulePrefix: 'ember-internal-state-experiment',
     environment,
     rootURL: '/',
     locationType: 'auto',
