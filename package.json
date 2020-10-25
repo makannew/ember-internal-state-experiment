@@ -1,6 +1,6 @@
 {
   "name": "ember-internal-state-experiment",
-  "homepage":"https://makannew.github.io/ember-internal-state-experiment/",
+  "homepage":"https://makannew.github.io/ember-internal-state-experiment",
   "version": "0.0.0",
   "private": true,
   "description": "Small description for ember-internal-state-experiment goes here",
@@ -58,5 +58,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "ember-addon":{
+    "demoURL":"https://makannew.github.io/ember-internal-state-experiment"
   }
 }

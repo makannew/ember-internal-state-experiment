@@ -44,6 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.rootURL = "/ember-internal-state-experiment"
     // here you can enable a production-specific feature
   }
 
